@@ -10,7 +10,7 @@ const svg = d3.select("#svg1")
 const color = d3.scaleOrdinal(d3.schemePastel2)
 
 async function main() {
-    const data = await d3.json("WHO_YLL_Global_2.json");
+    const data = await d3.json("json/WHO_YLL_Global_2.json");
 
     function treemap(data) {
         return d3.treemap()
