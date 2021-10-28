@@ -1,23 +1,10 @@
-const width = 960;
-const height = 570;
+const width = 1000;
+const height = 600;
 const svg = d3.select("#svg1")
 .attr("width", width)
 .attr("height", height);
 
-// function loadData(url) {
-//     return new Promise((resolve, reject) => {
-//         Papa.parse(url, {
-//             download: true,
-//             complete: (results) => {
-//                 console.log(results)
-//                 return resolve(results);
-//             }
-//         })
-//     })
-// }
-
 async function main() {
-    // const data = await loadData("./testCSV.csv");
     const data = await d3.json("WHO_YLL_Global_2.json");
 
     const root = d3.hierarchy(data)
@@ -26,7 +13,7 @@ async function main() {
         
         const treemap = d3.treemap()
         .size([width, height])
-        .padding(2);
+        .paddingInner(1);
         
         treemap(root);
 
@@ -35,61 +22,46 @@ async function main() {
         .range([ "#402D54", "#D18975", "#8FD175"]);
 
         const opacity = d3.scaleLinear()
-        .domain([0, 10])
+        .domain([0, 6])
         .range([.5,1]);
         
         const cell = svg.selectAll("g")
             .data(root.leaves())
             .enter().append("g")
             .attr("transform", (d) => "translate(" + d.x0 + "," + d.y0 + ")");
+        
         cell.append("rect")
             .attr("width", (d) => d.x1 - d.x0)
             .attr("height", (d) => d.y1 - d.y0)
-            .style("stroke", "black")
             .style("fill", (d) => color(d.parent.data.name))
             .style("opacity", (d) => opacity(d.data.value));
+    
+        cell.append("title")
+            .text((d) => d.data.name + "\n" + d3.format(d.value));
         
-        svg.selectAll("text")
-            .data(root.leaves())
-            .join("text")
-            .attr("x", (d) => d.x0+5)    // +10 to adjust position (more right)
-            .attr("y", (d) => d.y0+10)    // +20 to adjust position (lower)
-            .text((d) => d.data.code )
-            .attr("font-size", "15px")
-            .attr("fill", "white");
+        cell.append("clipPath")
+            .attr("id", (d) => "clip-" + d.data.code)
+            .append("use")
+            .attr("xlink:href", (d) => "#" + d.data.code);
+
+        cell.append("text")
+            .attr("clip-path", (d) => "url(#clip-" + d.data.code + ")")
+            .selectAll("tspan")
+                .data((d) => d.data.name.split(/(?=[A-Z][^A-Z])/g))
+                .enter().append("tspan")
+                .attr("x", 4)
+                .attr("y", 10)
+                .text((d) => d);
+
+
+        // svg.selectAll("text")
+            // .data(root.leaves())
+            // .join("text")
+            // .attr("x", (d) => d.x0+5)    // +10 to adjust position (more right)
+            // .attr("y", (d) => d.y0+10)    // +20 to adjust position (lower)
+            // .text((d) => d.data.code )
+            // .attr("font-size", "15px")
+            // .attr("fill", "white");
 }
 
 main();
-
-
-// d3.json("test1.json")
-//     .then((data) => {
-//         const root = d3.hierarchy(data)
-//         .sum((d) => d.size)
-        
-//         const treemap = d3.treemap()
-//         .size([width, height])
-//         .padding(2)
-        
-//         treemap(root)
-        
-//         const cell = svg.selectAll("g")
-//             .data(root.leaves())
-//             .enter().append("g")
-//             .attr("transform", (d) => "translate(" + d.x0 + "," + d.y0 + ")")
-//         cell.append("rect")
-//             .attr("width", (d) => d.x1 - d.x0)
-//             .attr("height", (d) => d.y1 - d.y0)
-//             .style("stroke", "black")
-//             .style("fill", "purple")
-        
-//         svg.selectAll("text")
-//             .data(root.leaves())
-//             .join("text")
-//             .attr("x", (d) => d.x0+5)    // +10 to adjust position (more right)
-//             .attr("y", (d) => d.y0+20)    // +20 to adjust position (lower)
-//             .text((d) => d.data.name )
-//             .attr("font-size", "15px")
-//             .attr("fill", "white")
-//     })
-//     .catch((error) => console.log(error));
