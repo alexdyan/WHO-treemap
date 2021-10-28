@@ -26,19 +26,28 @@ async function main() {
         
         const treemap = d3.treemap()
         .size([width, height])
-        .padding(2)
+        .padding(2);
         
-        treemap(root)
+        treemap(root);
+
+        const color = d3.scaleOrdinal()
+        .domain(["Infectious and parasitic diseases", "Noncommunicable diseases", "Injuries"])
+        .range([ "#402D54", "#D18975", "#8FD175"]);
+
+        const opacity = d3.scaleLinear()
+        .domain([0, 10])
+        .range([.5,1]);
         
         const cell = svg.selectAll("g")
             .data(root.leaves())
             .enter().append("g")
-            .attr("transform", (d) => "translate(" + d.x0 + "," + d.y0 + ")")
+            .attr("transform", (d) => "translate(" + d.x0 + "," + d.y0 + ")");
         cell.append("rect")
             .attr("width", (d) => d.x1 - d.x0)
             .attr("height", (d) => d.y1 - d.y0)
             .style("stroke", "black")
-            .style("fill", "purple");
+            .style("fill", (d) => color(d.parent.data.name))
+            .style("opacity", (d) => opacity(d.data.value));
         
         svg.selectAll("text")
             .data(root.leaves())
@@ -47,7 +56,7 @@ async function main() {
             .attr("y", (d) => d.y0+10)    // +20 to adjust position (lower)
             .text((d) => d.data.code )
             .attr("font-size", "15px")
-            .attr("fill", "white")
+            .attr("fill", "white");
 }
 
 main();
