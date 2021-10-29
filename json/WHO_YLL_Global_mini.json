@@ -1,0 +1,1185 @@
+{
+  "children": [
+    {
+      "name": "Communicable, maternal, perinatal and nutritional conditions",
+      "Code": 10,
+      "children": [
+        {
+          "name": "Infectious and parasitic diseases",
+          "Code": 20,
+          "children": [
+            {
+              "name": "Tuberculosis",
+              "2019YLL": 61751.257,
+              "value": 3.618,
+              "2000YLL": 88037.704,
+              "2000Percent": 4.25,
+              "Code": 30
+            },
+            {
+              "name": "STDs excluding HIV",
+              "2019YLL": 4007.412,
+              "value": 0.235,
+              "2000YLL": 4053.99,
+              "2000Percent": 0.196,
+              "Code": 40
+            },
+            {
+              "name": "HIV/AIDS",
+              "2019YLL": 36131.438,
+              "value": 2.117,
+              "2000YLL": 80189.336,
+              "2000Percent": 4,
+              "Code": 100
+            },
+            {
+              "name": "Diarrhoeal diseases",
+              "2019YLL": 68393.833,
+              "value": 4.008,
+              "2000YLL": 152183.392,
+              "2000Percent": 7.346,
+              "Code": 110
+            },
+            {
+              "name": "Childhood-cluster diseases",
+              "2019YLL": 28095.422,
+              "value": 1.646,
+              "2000YLL": 77469.731,
+              "2000Percent": 3.74,
+              "Code": 120
+            },
+            {
+              "name": "Meningitis",
+              "2019YLL": 15643.662,
+              "value": 0.569,
+              "2000YLL": 34306.469,
+              "2000Percent": 1.656,
+              "Code": 170
+            },
+            {
+              "name": "Encephalitis",
+              "2019YLL": 3694.966,
+              "value": 0.217,
+              "2000YLL": 7044.71,
+              "2000Percent": 0.34,
+              "Code": 180
+            },
+            {
+              "name": "Hepatitis",
+              "2019YLL": 4102.836,
+              "value": 0.24,
+              "2000YLL": 7637.683,
+              "2000Percent": 0.369,
+              "Code": 185
+            },
+            {
+              "name": "Parasitic and vector diseases",
+              "2019YLL": 37162.012,
+              "value": 2.178,
+              "2000YLL": 72036.458,
+              "2000Percent": 3.477,
+              "Code": 210
+            },
+            {
+              "name": "Intestinal nematode infections",
+              "2019YLL": 170.57,
+              "value": 0.01,
+              "2000YLL": 349.11,
+              "2000Percent": 0.017,
+              "Code": 330
+            },
+            {
+              "name": "Leprosy",
+              "2019YLL": 7.553,
+              "value": 0,
+              "2000YLL": 12.329,
+              "2000Percent": 0.001,
+              "Code": 365
+            },
+            {
+              "name": "Other infectious diseases",
+              "2019YLL": 15131.604,
+              "value": 0.887,
+              "2000YLL": 10599.562,
+              "2000Percent": 0.512,
+              "Code": 370
+            }
+          ]
+        },
+        {
+          "name": "Respiratory Infectious",
+          "Code": 380,
+          "children": [
+            {
+              "name": "Lower respiratory infections",
+              "2019YLL": 105005.916,
+              "value": 6.153,
+              "2000YLL": 182430.117,
+              "2000Percent": 8.806,
+              "Code": 390
+            },
+            {
+              "name": "Upper respiratory infections",
+              "2019YLL": 500.911,
+              "value": 0.029,
+              "2000YLL": 1109.878,
+              "2000Percent": 0.054,
+              "Code": 400
+            },
+            {
+              "name": "Otitis media",
+              "2019YLL": 34.205,
+              "value": 0.002,
+              "2000YLL": 72.425,
+              "2000Percent": 0.003,
+              "Code": 410
+            }
+          ]
+        },
+        {
+          "name": "Maternal conditions",
+          "2019YLL": 11408.182,
+          "value": 0.668,
+          "2000YLL": 22572.223,
+          "2000Percent": 1.09,
+          "Code": 420
+        },
+        {
+          "name": "Neonatal conditions",
+          "Code": 490,
+          "children": [
+            {
+              "name": "Preterm birth complications",
+              "2019YLL": 81866.595,
+              "value": 4.797,
+              "2000YLL": 122132.892,
+              "2000Percent": 5.896,
+              "Code": 500
+            },
+            {
+              "name": "Birth asphyxia and birth trauma",
+              "2019YLL": 58652.455,
+              "value": 3.437,
+              "2000YLL": 101524.415,
+              "2000Percent": 4.901,
+              "Code": 510
+            },
+            {
+              "name": "Neonatal sepsis and infections",
+              "2019YLL": 30730.64,
+              "value": 1.801,
+              "2000YLL": 43161.403,
+              "2000Percent": 2.083,
+              "Code": 520
+            },
+            {
+              "name": "Other neonatal conditions",
+              "2019YLL": 11957.05,
+              "value": 0.701,
+              "2000YLL": 20841.254,
+              "2000Percent": 1.006,
+              "Code": 530
+            }
+          ]
+        },
+        {
+          "name": "Nutritional deficiencies",
+          "Code": 540,
+          "children": [
+            {
+              "name": "Protein-energy malnutrition",
+              "2019YLL": 9605.695,
+              "value": 0.563,
+              "2000YLL": 22347.164,
+              "2000Percent": 1.079,
+              "Code": 550
+            },
+            {
+              "name": "Iodine deficiency",
+              "2019YLL": 0.708,
+              "value": 0,
+              "2000YLL": 0.559,
+              "2000Percent": 0,
+              "Code": 560
+            },
+            {
+              "name": "Vitamin A deficiency",
+              "2019YLL": 0.088,
+              "value": 0,
+              "2000YLL": 0.199,
+              "2000Percent": 0,
+              "Code": 570
+            },
+            {
+              "name": "Iron-deficiency anaemia",
+              "2019YLL": 343.023,
+              "value": 0.02,
+              "2000YLL": 256.054,
+              "2000Percent": 0.012,
+              "Code": 580
+            },
+            {
+              "name": "Other nutritional deficiencies",
+              "2019YLL": 1213.768,
+              "value": 0.071,
+              "2000YLL": 2494.527,
+              "2000Percent": 0.12,
+              "Code": 590
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noncommunicable diseases",
+      "Code": 600,
+      "children": [
+        {
+          "name": "Malignant neoplasms",
+          "Code": 610,
+          "children": [
+            {
+              "name": "Mouth and oropharynx cancers",
+              "2019YLL": 11412.908,
+              "value": 0.669,
+              "2000YLL": 8153.417,
+              "2000Percent": 0.394,
+              "Code": 620
+            },
+            {
+              "name": "Oesophagus cancer",
+              "2019YLL": 11310.864,
+              "value": 0.663,
+              "2000YLL": 10312.67,
+              "2000Percent": 0.498,
+              "Code": 630
+            },
+            {
+              "name": "Stomach cancer",
+              "2019YLL": 19893.223,
+              "value": 1.166,
+              "2000YLL": 20254.466,
+              "2000Percent": 0.978,
+              "Code": 640
+            },
+            {
+              "name": "Colon and rectum cancers",
+              "2019YLL": 20570.351,
+              "value": 1.205,
+              "2000YLL": 13939.642,
+              "2000Percent": 0.673,
+              "Code": 650
+            },
+            {
+              "name": "Liver cancer",
+              "2019YLL": 15609.759,
+              "value": 0.915,
+              "2000YLL": 16253.567,
+              "2000Percent": 0.785,
+              "Code": 660
+            },
+            {
+              "name": "Pancreas cancer",
+              "2019YLL": 9957.89,
+              "value": 0.583,
+              "2000YLL": 5495.12,
+              "2000Percent": 0.265,
+              "Code": 670
+            },
+            {
+              "name": "Trachea, bronchus, lung cancers",
+              "2019YLL": 40849.079,
+              "value": 2.394,
+              "2000YLL": 30061.469,
+              "2000Percent": 1.451,
+              "Code": 680
+            },
+            {
+              "name": "Melanoma and other skin cancers",
+              "2019YLL": 2853.782,
+              "value": 0.167,
+              "2000YLL": 2068.64,
+              "2000Percent": 0.1,
+              "Code": 690
+            },
+            {
+              "name": "Breast cancer",
+              "2019YLL": 18385.192,
+              "value": 1.077,
+              "2000Percent": 0.644,
+              "Code": 700
+            },
+            {
+              "name": "Cervix uteri cancer",
+              "2019YLL": 9938.085,
+              "value": 0.582,
+              "2000YLL": 8111.386,
+              "2000Percent": 0.392,
+              "Code": 710
+            },
+            {
+              "name": "Corpus uteri cancer",
+              "2019YLL": 2090.658,
+              "value": 0.123,
+              "2000YLL": 1652.336,
+              "2000Percent": 0.08,
+              "Code": 720
+            },
+            {
+              "name": "Ovary cancer",
+              "2019YLL": 4977.272,
+              "value": 0.292,
+              "2000YLL": 3196.95,
+              "2000Percent": 0.154,
+              "Code": 730
+            },
+            {
+              "name": "Prostate cancer",
+              "2019YLL": 6236.493,
+              "value": 0.365,
+              "2000YLL": 4427.145,
+              "2000Percent": 0.214,
+              "Code": 740
+            },
+            {
+              "name": "Testicular cancer",
+              "2019YLL": 448.537,
+              "value": 0.026,
+              "2000YLL": 383.236,
+              "2000Percent": 0.018,
+              "Code": 742
+            },
+            {
+              "name": "Kidney cancer",
+              "2019YLL": 3679.362,
+              "value": 0.216,
+              "2000YLL": 2546.971,
+              "2000Percent": 0.123,
+              "Code": 745
+            },
+            {
+              "name": "Bladder cancer",
+              "2019YLL": 3755.152,
+              "value": 0.22,
+              "2000YLL": 2795.222,
+              "2000Percent": 0.135,
+              "Code": 750
+            },
+            {
+              "name": "Brain and nervous system cancers",
+              "2019YLL": 8261.555,
+              "value": 0.484,
+              "2000YLL": 6877.224,
+              "2000Percent": 0.332,
+              "Code": 751
+            },
+            {
+              "name": "Gallbladder and biliary tract cancer",
+              "2019YLL": 3518.548,
+              "value": 0.206,
+              "2000YLL": 2494.505,
+              "2000Percent": 0.12,
+              "Code": 752
+            },
+            {
+              "name": "Larynx cancer",
+              "2019YLL": 2950.584,
+              "value": 0.173,
+              "2000YLL": 2562.256,
+              "2000Percent": 0.124,
+              "Code": 753
+            },
+            {
+              "name": "Thyroid cancer",
+              "2019YLL": 991.017,
+              "value": 0.058,
+              "2000YLL": 716.134,
+              "2000Percent": 0.035,
+              "Code": 754
+            },
+            {
+              "name": "Mesothelioma",
+              "2019YLL": 574.561,
+              "value": 0.034,
+              "2000YLL": 363.708,
+              "2000Percent": 0.018,
+              "Code": 755
+            },
+            {
+              "name": "Lymphomas, multiple myeloma",
+              "2019YLL": 10088.595,
+              "value": 0.591,
+              "2000YLL": 7706.113,
+              "2000Percent": 0.372,
+              "Code": 760
+            },
+            {
+              "name": "Leukaemia",
+              "2019YLL": 10374.571,
+              "value": 0.608,
+              "2000YLL": 11519.882,
+              "2000Percent": 0.556,
+              "Code": 770
+            },
+            {
+              "name": "Other malignant neoplasms",
+              "2019YLL": 16146.506,
+              "value": 0.946,
+              "2000YLL": 12357.591,
+              "2000Percent": 0.597,
+              "Code": 780
+            }
+          ]
+        },
+        {
+          "name": "Other neoplasms",
+          "2019YLL": 2534.587,
+          "value": 0.149,
+          "2000YLL": 1650.277,
+          "2000Percent": 0.08,
+          "Code": 790
+        },
+        {
+          "name": "Diabetes mellitus",
+          "2019YLL": 34171.016,
+          "value": 2.002,
+          "2000YLL": 21457.664,
+          "2000Percent": 1.036,
+          "Code": 800
+        },
+        {
+          "name": "Endocrine, blood, immune disorders",
+          "Code": 810,
+          "children": [
+            {
+              "name": "Thalassaemias",
+              "2019YLL": 792.553,
+              "value": 0.046,
+              "2000YLL": 1042.539,
+              "2000Percent": 0.05,
+              "Code": 811
+            },
+            {
+              "name": "Sickle cell disorders and trait",
+              "2019YLL": 3439.158,
+              "value": 0.202,
+              "2000YLL": 3090.295,
+              "2000Percent": 0.149,
+              "Code": 812
+            },
+            {
+              "name": "Other haemoglobinopathies and haemolytic anaemias",
+              "2019YLL": 1329.296,
+              "value": 0.078,
+              "2000YLL": 1208.81,
+              "2000Percent": 0.058,
+              "Code": 813
+            },
+            {
+              "name": "Other endocrine, blood and immune disorders",
+              "2019YLL": 5923.879,
+              "value": 0.347,
+              "2000YLL": 4284.965,
+              "2000Percent": 0.207,
+              "Code": 814
+            }
+          ]
+        },
+        {
+          "name": "Mental and substance use disorders",
+          "Code": 875,
+          "children": [
+            {
+              "name": "Depressive disorders",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 830
+            },
+            {
+              "name": "Bipolar disorder",
+              "2019YLL": 19.59,
+              "value": 0.001,
+              "2000YLL": 8.046,
+              "2000Percent": 0,
+              "Code": 840
+            },
+            {
+              "name": "Schizophrenia",
+              "2019YLL": 143.61,
+              "value": 0.008,
+              "2000YLL": 84.56,
+              "2000Percent": 0.004,
+              "Code": 850
+            },
+            {
+              "name": "Alcohol use disorders",
+              "2019YLL": 5875.411,
+              "value": 0.344,
+              "2000YLL": 6522.376,
+              "2000Percent": 0.315,
+              "Code": 860
+            },
+            {
+              "name": "Drug use disorders",
+              "2019YLL": 7630.179,
+              "value": 0.447,
+              "2000YLL": 4426.529,
+              "2000Percent": 0.214,
+              "Code": 870
+            },
+            {
+              "name": "Anxiety disorders",
+              "2019YLL": 3.126,
+              "value": 0,
+              "2000YLL": 1.175,
+              "2000Percent": 0,
+              "Code": 880
+            },
+            {
+              "name": "Eating disorders",
+              "2019YLL": 5.826,
+              "value": 0,
+              "2000YLL": 3.305,
+              "2000Percent": 0,
+              "Code": 890
+            },
+            {
+              "name": "Autism and Asperger syndrome",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 900
+            },
+            {
+              "name": "Childhood behavioural disorders",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 910
+            },
+            {
+              "name": "Idiopathic intellectual disability",
+              "2019YLL": 60.633,
+              "value": 0.004,
+              "2000YLL": 44.129,
+              "2000Percent": 0.002,
+              "Code": 920
+            },
+            {
+              "name": "Other mental and behavioural disorders",
+              "2019YLL": 0.02,
+              "value": 0,
+              "2000YLL": 0.141,
+              "2000Percent": 0,
+              "Code": 930
+            }
+          ]
+        },
+        {
+          "name": "Neurological conditions",
+          "Code": 940,
+          "children": [
+            {
+              "name": "Alzheimer disease and other dementias",
+              "2019YLL": 18068.313,
+              "value": 1.059,
+              "2000YLL": 7358.202,
+              "2000Percent": 0.355,
+              "Code": 950
+            },
+            {
+              "name": "Parkinson disease",
+              "2019YLL": 4610.27,
+              "value": 0.27,
+              "2000YLL": 2520.023,
+              "2000Percent": 0.122,
+              "Code": 960
+            },
+            {
+              "name": "Epilepsy",
+              "2019YLL": 5412.201,
+              "value": 0.317,
+              "2000YLL": 6425.784,
+              "2000Percent": 0.31,
+              "Code": 970
+            },
+            {
+              "name": "Multiple sclerosis",
+              "2019YLL": 744.118,
+              "value": 0.044,
+              "2000YLL": 570.661,
+              "2000Percent": 0.028,
+              "Code": 980
+            },
+            {
+              "name": "Migraine",
+              "2019YLL": 0.614,
+              "value": 0,
+              "2000YLL": 0.653,
+              "2000Percent": 0,
+              "Code": 990
+            },
+            {
+              "name": "Non-migraine headache",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1000
+            },
+            {
+              "name": "Other neurological conditions",
+              "2019YLL": 5599.479,
+              "value": 0.328,
+              "2000YLL": 3867.643,
+              "2000Percent": 0.187,
+              "Code": 1010
+            }
+          ]
+        },
+        {
+          "name": "Sense organ diseases",
+          "Code": 1020,
+          "children": [
+            {
+              "name": "Glaucoma",
+              "2019YLL": 0.541,
+              "value": 0,
+              "2000YLL": 0.661,
+              "2000Percent": 0,
+              "Code": 1030
+            },
+            {
+              "name": "Cataracts",
+              "2019YLL": 0.18,
+              "value": 0,
+              "2000YLL": 0.157,
+              "2000Percent": 0,
+              "Code": 1040
+            },
+            {
+              "name": "Uncorrected refractive errors",
+              "2019YLL": 0.008,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1050
+            },
+            {
+              "name": "Macular degeneration",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1060
+            },
+            {
+              "name": "Other vision loss",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1070
+            },
+            {
+              "name": "Other hearing loss",
+              "2019YLL": 0.284,
+              "value": 0,
+              "2000YLL": 0.07,
+              "2000Percent": 0,
+              "Code": 1080
+            },
+            {
+              "name": "Other sense organ disorders",
+              "2019YLL": 13.07,
+              "value": 0.001,
+              "2000YLL": 10.593,
+              "2000Percent": 0.001,
+              "Code": 1090
+            }
+          ]
+        },
+        {
+          "name": "Cardiovascular diseases",
+          "Code": 1100,
+          "children": [
+            {
+              "name": "Rheumatic heart disease",
+              "2019YLL": 8483.051,
+              "value": 0.497,
+              "2000YLL": 11309.492,
+              "2000Percent": 0.546,
+              "Code": 1110
+            },
+            {
+              "name": "Hypertensive heart disease",
+              "2019YLL": 20482.232,
+              "value": 1.2,
+              "2000YLL": 14653.036,
+              "2000Percent": 0.707,
+              "Code": 1120
+            },
+            {
+              "name": "Ischaemic heart disease",
+              "2019YLL": 175604.711,
+              "value": 10.29,
+              "2000YLL": 140794.903,
+              "2000Percent": 6.796,
+              "Code": 1130
+            },
+            {
+              "name": "Stroke",
+              "2019YLL": 122115.465,
+              "value": 7.155,
+              "2000YLL": 114595.005,
+              "2000Percent": 5.532,
+              "Code": 1140
+            },
+            {
+              "name": "Cardiomyopathy, myocarditis, endocarditis",
+              "2019YLL": 9723.499,
+              "value": 0.57,
+              "2000YLL": 9359.488,
+              "2000Percent": 0.452,
+              "Code": 1150
+            },
+            {
+              "name": "Other circulatory diseases",
+              "2019YLL": 18372.252,
+              "value": 1.077,
+              "2000YLL": 14845.388,
+              "2000Percent": 0.717,
+              "Code": 1160
+            }
+          ]
+        },
+        {
+          "name": "Respiratory diseases",
+          "Code": 1170,
+          "children": [
+            {
+              "name": "Chronic obstructive pulmonary disease",
+              "2019YLL": 54572.878,
+              "value": 3.198,
+              "2000YLL": 54445.854,
+              "2000Percent": 2.628,
+              "Code": 1180
+            },
+            {
+              "name": "Asthma",
+              "2019YLL": 11566.828,
+              "value": 0.678,
+              "2000YLL": 13701.075,
+              "2000Percent": 0.661,
+              "Code": 1190
+            },
+            {
+              "name": "Other respiratory diseases",
+              "2019YLL": 8471.682,
+              "value": 0.496,
+              "2000YLL": 6285.437,
+              "2000Percent": 0.303,
+              "Code": 1200
+            }
+          ]
+        },
+        {
+          "name": "Digestive diseases",
+          "Code": 1210,
+          "children": [
+            {
+              "name": "Peptic ulcer disease",
+              "2019YLL": 5485.997,
+              "value": 0.321,
+              "2000YLL": 7462.725,
+              "2000Percent": 0.36,
+              "Code": 1220
+            },
+            {
+              "name": "Cirrhosis of the liver",
+              "2019YLL": 42111.336,
+              "value": 2.468,
+              "2000YLL": 38143.47,
+              "2000Percent": 1.841,
+              "Code": 1230
+            },
+            {
+              "name": "Appendicitis",
+              "2019YLL": 1253.698,
+              "value": 0.073,
+              "2000YLL": 1850.109,
+              "2000Percent": 0.089,
+              "Code": 1240
+            },
+            {
+              "name": "Gastritis and duodenitis",
+              "2019YLL": 867.812,
+              "value": 0.051,
+              "2000YLL": 924.685,
+              "2000Percent": 0.045,
+              "Code": 1241
+            },
+            {
+              "name": "Paralytic ileus and intestinal obstruction",
+              "2019YLL": 6652.895,
+              "value": 0.39,
+              "2000YLL": 6127.796,
+              "2000Percent": 0.296,
+              "Code": 1242
+            },
+            {
+              "name": "Inflammatory bowel disease",
+              "2019YLL": 686.494,
+              "value": 0.04,
+              "2000YLL": 756.614,
+              "2000Percent": 0.037,
+              "Code": 1244
+            },
+            {
+              "name": "Gallbladder and biliary diseases",
+              "2019YLL": 2247.486,
+              "value": 0.132,
+              "2000YLL": 1860.781,
+              "2000Percent": 0.09,
+              "Code": 1246
+            },
+            {
+              "name": "Pancreatitis",
+              "2019YLL": 3328.235,
+              "value": 0.195,
+              "2000YLL": 2866.827,
+              "2000Percent": 0.138,
+              "Code": 1248
+            },
+            {
+              "name": "Other digestive diseases",
+              "2019YLL": 8036.306,
+              "value": 0.471,
+              "2000YLL": 6666.838,
+              "2000Percent": 0.322,
+              "Code": 1250
+            }
+          ]
+        },
+        {
+          "name": "Genitourinary diseases",
+          "Code": 1260,
+          "children": [
+            {
+              "name": "Kidney diseases",
+              "2019YLL": 32023.37,
+              "value": 1.876,
+              "2000YLL": 22990.709,
+              "2000Percent": 1.11,
+              "Code": 1270
+            },
+            {
+              "name": "Benign prostatic hyperplasia",
+              "2019YLL": 81.981,
+              "value": 0.005,
+              "2000YLL": 63.05,
+              "2000Percent": 0.003,
+              "Code": 1280
+            },
+            {
+              "name": "Urolithiasis",
+              "2019YLL": 205.327,
+              "value": 0.012,
+              "2000YLL": 232.629,
+              "2000Percent": 0.011,
+              "Code": 1290
+            },
+            {
+              "name": "Other urinary diseases",
+              "2019YLL": 6268.535,
+              "value": 0.367,
+              "2000YLL": 4494.896,
+              "2000Percent": 0.217,
+              "Code": 1300
+            },
+            {
+              "name": "Infertility",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1310
+            },
+            {
+              "name": "Gynecological diseases",
+              "2019YLL": 244.005,
+              "value": 0.014,
+              "2000YLL": 240.164,
+              "2000Percent": 0.012,
+              "Code": 1320
+            }
+          ]
+        },
+        {
+          "name": "Skin diseases",
+          "2019YLL": 2243.68,
+          "value": 0.131,
+          "2000YLL": 1996.939,
+          "2000Percent": 0.096,
+          "Code": 1330
+        },
+        {
+          "name": "Musculoskeletal diseases",
+          "Code": 1340,
+          "children": [
+            {
+              "name": "Rheumatoid arthritis",
+              "2019YLL": 821.409,
+              "value": 0.048,
+              "2000YLL": 593.832,
+              "2000Percent": 0.029,
+              "Code": 1350
+            },
+            {
+              "name": "Osteoarthritis",
+              "2019YLL": 57.385,
+              "value": 0.003,
+              "2000YLL": 46.14,
+              "2000Percent": 0.002,
+              "Code": 1360
+            },
+            {
+              "name": "Gout",
+              "2019YLL": 19.594,
+              "value": 0.001,
+              "2000YLL": 10.829,
+              "2000Percent": 0.001,
+              "Code": 1370
+            },
+            {
+              "name": "Back and neck pain",
+              "2019YLL": 86.756,
+              "value": 0.005,
+              "2000YLL": 33.434,
+              "2000Percent": 0.002,
+              "Code": 1380
+            },
+            {
+              "name": "Other musculoskeletal disorders",
+              "2019YLL": 2304.299,
+              "value": 0.135,
+              "2000YLL": 1648.261,
+              "2000Percent": 0.08,
+              "Code": 1390
+            }
+          ]
+        },
+        {
+          "name": "Congenital anomalies",
+          "Code": 1400,
+          "children": [
+            {
+              "name": "Neural tube defects",
+              "2019YLL": 7015.98,
+              "value": 0.411,
+              "2000YLL": 9551.466,
+              "2000Percent": 0.461,
+              "Code": 1410
+            },
+            {
+              "name": "Cleft lip and cleft palate",
+              "2019YLL": 250.218,
+              "value": 0.015,
+              "2000YLL": 576.49,
+              "2000Percent": 0.028,
+              "Code": 1420
+            },
+            {
+              "name": "Down syndrome",
+              "2019YLL": 1582.738,
+              "value": 0.093,
+              "2000YLL": 1573.173,
+              "2000Percent": 0.076,
+              "Code": 1430
+            },
+            {
+              "name": "Congenital heart anomalies",
+              "2019YLL": 17220.989,
+              "value": 1.009,
+              "2000YLL": 22657.109,
+              "2000Percent": 1.094,
+              "Code": 1440
+            },
+            {
+              "name": "Other chromosomal anomalies",
+              "2019YLL": 1818.747,
+              "value": 0.107,
+              "2000YLL": 1437.418,
+              "2000Percent": 0.069,
+              "Code": 1450
+            },
+            {
+              "name": "Other congenital anomalies",
+              "2019YLL": 17310.594,
+              "value": 1.014,
+              "2000YLL": 20140.249,
+              "2000Percent": 0.972,
+              "Code": 1460
+            }
+          ]
+        },
+        {
+          "name": "Oral conditions",
+          "Code": 1470,
+          "children": [
+            {
+              "name": "Dental caries",
+              "2019YLL": 0.18,
+              "value": 0,
+              "2000YLL": 0.132,
+              "2000Percent": 0,
+              "Code": 1480
+            },
+            {
+              "name": "Periodontal disease",
+              "2019YLL": 0.803,
+              "value": 0,
+              "2000YLL": 1.415,
+              "2000Percent": 0,
+              "Code": 1490
+            },
+            {
+              "name": "Edentulism",
+              "2019YLL": 0,
+              "value": 0,
+              "2000YLL": 0,
+              "2000Percent": 0,
+              "Code": 1500
+            },
+            {
+              "name": "Other oral disorders",
+              "2019YLL": 22.339,
+              "value": 0.001,
+              "2000YLL": 12.104,
+              "2000Percent": 0.001,
+              "Code": 1502
+            }
+          ]
+        },
+        {
+          "name": "Sudden infant death syndrome",
+          "2019YLL": 2703.354,
+          "value": 0.158,
+          "2000YLL": 3730.109,
+          "2000Percent": 0.18,
+          "Code": 1505
+        }
+      ]
+    },
+    {
+      "name": "Injuries",
+      "Code": 1510,
+      "children": [
+        {
+          "name": "Unintentional injuries",
+          "Code": 1520,
+          "children": [
+            {
+              "name": "Road injury",
+              "2019YLL": 62278.962,
+              "value": 3.649,
+              "2000YLL": 62485.073,
+              "2000Percent": 3.016,
+              "Code": 1530
+            },
+            {
+              "name": "Poisonings",
+              "2019YLL": 4423.901,
+              "value": 0.259,
+              "2000YLL": 5380.771,
+              "2000Percent": 0.26,
+              "Code": 1540
+            },
+            {
+              "name": "Falls",
+              "2019YLL": 17143.769,
+              "value": 1.005,
+              "2000YLL": 14594.479,
+              "2000Percent": 0.704,
+              "Code": 1550
+            },
+            {
+              "name": "Fire, heat and hot substances",
+              "2019YLL": 5748.948,
+              "value": 0.337,
+              "2000YLL": 6737.466,
+              "2000Percent": 0.325,
+              "Code": 1560
+            },
+            {
+              "name": "Drowning",
+              "2019YLL": 13273.22,
+              "value": 0.778,
+              "2000YLL": 24013.972,
+              "2000Percent": 1.159,
+              "Code": 1570
+            },
+            {
+              "name": "Exposure to mechanical forces",
+              "2019YLL": 6334.423,
+              "value": 0.371,
+              "2000YLL": 7267.766,
+              "2000Percent": 0.351,
+              "Code": 1575
+            },
+            {
+              "name": "Natural disasters",
+              "2019YLL": 345.665,
+              "value": 0.02,
+              "2000YLL": 522.767,
+              "2000Percent": 0.025,
+              "Code": 1580
+            },
+            {
+              "name": "Other unintentional injuries",
+              "2019YLL": 27166.131,
+              "value": 1.592,
+              "2000YLL": 34291.566,
+              "2000Percent": 1.655,
+              "Code": 1590
+            }
+          ]
+        },
+        {
+          "name": "Intentional injuries",
+          "Code": 1600,
+          "children": [
+            {
+              "name": "Self-harm",
+              "2019YLL": 30937.213,
+              "value": 1.813,
+              "2000YLL": 37434.237,
+              "2000Percent": 1.807,
+              "Code": 1610
+            },
+            {
+              "name": "Interpersonal violence",
+              "2019YLL": 25699.436,
+              "value": 1.506,
+              "2000YLL": 27073,
+              "2000Percent": 1.307,
+              "Code": 1620
+            },
+            {
+              "name": "Collective violence and legal intervention",
+              "2019YLL": 4069.375,
+              "value": 0.238,
+              "2000YLL": 8101.415,
+              "2000Percent": 0.391,
+              "Code": 1630
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

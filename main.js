@@ -1,13 +1,13 @@
 import uid from './uid.js';
 
 const width = 1000;
-const height = 600;
+const height = 800;
 const svg = d3.select("#svg1")
     .attr("viewBox", [0, 0, width, height])
     .style("font", "10px sans-serif");
 
 async function main() {
-    const data = await d3.json("json/WHO_YLL_Global.json");
+    const data = await d3.json("json/WHO_YLL_Global_mini.json");
 
     const treemap = d3.treemap()
     // .tile(d3.treemapResquarify)
@@ -21,7 +21,7 @@ async function main() {
         .sort((a, b) => b.height - a.height || b.value - a.value);
     treemap(root);
 
-    const color = d3.scaleSequential([-2, 6], d3.interpolateGnBu);
+    const color = d3.scaleSequential([-1, 5], d3.interpolateGnBu);
         
     const cell = svg.selectAll("g")
         .data(d3.group(root, d => d.height))
