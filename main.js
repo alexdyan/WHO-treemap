@@ -72,7 +72,7 @@ async function main() {
 
     // hover text
     cell.append("title")
-        .text(d => `${d.ancestors().reverse().map(d => d.data.name).join("/")}\n${d3.format(d.value)}`)
+        .text(d => `${d.ancestors().reverse().map(d => d.data.name).join("/")}\n${d3.format(".1f")(totalYLLs * (d.value / 100))}`)
         .style("fill", "yellow")
     
     // prevents text from overflowing its cell
